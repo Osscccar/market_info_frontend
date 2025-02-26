@@ -1,0 +1,8 @@
+[build]
+command = "npm run build"
+# Don't set "publish" here if you rely on the plugin's defaults,
+# but if you want to be explicit, you can do:
+# publish = ".next"
+
+[[plugins]]
+package = "@netlify/plugin-nextjs"
